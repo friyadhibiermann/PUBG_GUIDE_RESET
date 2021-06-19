@@ -12,4 +12,4 @@ chmod 0755 *.sh
 
 </pre>
 - jika berjalan akan muncul seperti ini 
-<img src='pubgguidereset.jpg'></img>
+![alt text](pubgguidereset.jpg)
