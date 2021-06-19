@@ -1,7 +1,8 @@
 # PUBG_GUIDE_RESET
 Reset akun guide baru
 #cara menggunakan :
-- install termux di android anda 
+- clear cache pada aplikasi Pubg mobile
+- install termux di android anda
 install keeperluan package 
 <pre>
 pkg update && pkg install bash git 
@@ -13,3 +14,5 @@ chmod 0755 *.sh
 </pre>
 - jika berjalan akan muncul seperti ini <br>
 ![alt text](https://github.com/friyadhibiermann/PUBG_GUIDE_RESET/blob/master/Pubgguidereset.jpg)
+
+- SUKSESS 
