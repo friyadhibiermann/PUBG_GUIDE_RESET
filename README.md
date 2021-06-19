@@ -5,10 +5,12 @@ Reset akun guide baru
 - install termux di android anda
 install keeperluan package 
 <pre>
-pkg update && pkg install bash git 
+pkg update && pkg install bash git tsu 
+
 git clone https://github.com/friyadhibiermann/PUBG_GUIDE_RESET
 cd PUBG_GUIDE_RESET
 chmod 0755 *.sh 
+tsu
 ./reset_guest.sh
 
 </pre>
