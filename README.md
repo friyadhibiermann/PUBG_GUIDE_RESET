@@ -11,5 +11,5 @@ chmod 0755 *.sh
 ./reset_guest.sh
 
 </pre>
-- jika berjalan akan muncul seperti ini 
-![alt text](pubgguidereset.jpg)
+- jika berjalan akan muncul seperti ini <br>
+![alt text](https://github.com/friyadhibiermann/PUBG_GUIDE_RESET/blob/master/Pubgguidereset.jpg)
