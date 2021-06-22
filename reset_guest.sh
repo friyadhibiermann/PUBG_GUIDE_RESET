@@ -14,8 +14,6 @@ tr -dc 0-9 </dev/urandom | head -c $1 ; echo ''
 random_huruf(){
 tr -dc A-Za-z0-9 </dev/urandom | head -c $1 ; echo ''
 }
-read -p "anda yakin ingin reset akun guide PUBG-M ? :" YES
-if [ $YES == 'y'] || [ $YES == 'yes' ] || [ $YES == 'Y' ] || [ $YES == "YES"];then
 case $1 in
 	"AH")
 	random_huruf_angka $2
@@ -34,6 +32,8 @@ sqlite3 -json /data/data/com.tencent.ig/databases/iMSDK.db "select * from login_
  sed 's/\\//g; s/\"{/{/g; s/}"/}/g ' | jq $1
 }
 #-------------------------------------------------------------------------------------------------------------------
+if [ $YES == 'y'] || [ $YES == 'yes' ] || [ $YES == 'Y' ] || [ $YES == "YES"];then
+read -p "anda yakin ingin reset akun guide PUBG-M ? :" YES
 set_path="/data/data/com.tencent.ig"
 #CLEAR_CACHE
 rm $set_path/cache/*.tmp > /dev/null 2>&1
